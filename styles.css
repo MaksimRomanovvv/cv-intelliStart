@@ -54,9 +54,10 @@ cursor: pointer;
 margin-bottom: 60px;
 
 }
-.my-photo{ display: inline;
+.my-photo{ 
+    display: inline;
     position: absolute;
-    height: 450px;
+    height: 400px;
     width: auto;
     left: 20px;
     top: 20px;
@@ -80,7 +81,7 @@ margin-left: 605px;
     font-size: 60px;
     width: 250px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 
 }
@@ -240,8 +241,10 @@ font-size: 20px;
     margin-bottom: 10px;
 }
 .proj-img{
-    width: 300px;
-    height: auto;
+ height: 200px;
+ width: auto;
+ display: block;
+ margin: 0 auto;
 }
 .restart-btn,.finish-btn{
     display: none;
@@ -294,7 +297,7 @@ font-size: 20px;
     border: 4px solid transparent;
 }
 .next-type-text{
-    width: 200px;
+    width: 250px;
     font-size: 30px;
     margin: 0 auto;
     margin-top: 20px;

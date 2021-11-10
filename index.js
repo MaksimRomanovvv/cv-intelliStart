@@ -38,7 +38,7 @@ const recursia = function () {
             document.querySelector('.next-type').remove();
             document.querySelector('.pet-projects').innerHTML = `<h3>Pet-projects</h3>
             <h4 class="pet-title"><a href="https://maksimromanovvv.github.io/weatherappkyiv/dist/"target="_blank">Weather-app</a> </h2>
-            <a href="https://maksimromanovvv.github.io/weatherappkyiv/dist/" target="_blank"><img class="proj-img" src="./img/proj.png" alt=""></a>`
+            <a href="https://maksimromanovvv.github.io/weatherappkyiv/dist/" target="_blank"><img class="proj-img" src="./img/proj.jpg" alt=""></a>`
        document.querySelector('.finish-btn').style.display = 'block';
        document.querySelector('.finish-btn').addEventListener('click',()=>{
         document.querySelector('.finish-btn').style.display = 'none';
