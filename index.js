@@ -1,4 +1,4 @@
-console.log('hello');
+
 const recursia = function () {
     const dateStart = new Date();
     
